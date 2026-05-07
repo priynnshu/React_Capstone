@@ -1,18 +1,17 @@
-function Itinerary({
-  tripList,
-  removePlace
-}) {
+function Itinerary({tripList,removePlace}) {
   return (
-    <div>
+    <div className="trip-container">
       <h2>My Trip Plan</h2>
-      {
-        tripList.map(
+      <div className="trip-list">
+      {tripList.map(
           (item, index) => (
-          <div key={index}>
+          <div className="trip-card" key={index}>
             {item}
             <button onClick={() =>removePlace(index)}>Remove</button>
-        </div>
-))}
+          </div>
+        )
+      )}
+      </div>
     </div>
   )
 }

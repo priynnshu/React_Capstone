@@ -1,6 +1,6 @@
 function PlaceCard({place,onAdd}){
   return (
-    <div>
+    <div className="place-card">
       <p>
         {place?.properties?.name}
       </p>
