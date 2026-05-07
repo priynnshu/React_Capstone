@@ -17,12 +17,11 @@ Smart Travel Planner is a web-based application built using React that helps use
 ### 🌦️ Weather Information
 
 * Displays current weather conditions
-* Shows temperature, humidity, and forecast
+* Shows temperature, humidity
 
 ### 📍 Tourist Attractions
 
 * Displays popular places to visit
-* Includes images and basic details
 
 ### 📅 Itinerary Builder
 
@@ -79,5 +78,6 @@ Smart Travel Planner is a web-based application built using React that helps use
 * Map integration (Google Maps / Mapbox)
 * User authentication
 * Share itinerary feature
+* Includes images and basic details
 
 ---
